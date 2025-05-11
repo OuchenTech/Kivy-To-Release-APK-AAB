@@ -17,7 +17,7 @@ By the end of this guide, you’ll be able to automatically:
 Let’s get your app from source folder to store-ready — the fast and secure way.
 
 🎥 **Watch the Full Tutorial on YouTube**  
-👉 [Watch Now](https://www.youtube.com/@OuchenTech)
+👉 [Watch Now](https://youtu.be/9Nf2Oz3bPIg)
 
 ## Overview of Conversion Process
 
