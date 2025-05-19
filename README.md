@@ -230,11 +230,11 @@ jobs:
           path: ./bin/*-release-signed.aab
 ```
 
-#### Explanation of Key Steps in the build.yml File:
+#### Explanation of Key Steps in the `build.yml` File:
 
 **Step 1: Decode Keystore from Base64** 
 
-GitHub Secrets allow us to store sensitive data securely. The keystore file is stored as a Base64-encoded string in GitHub Secrets. This step decodes the keystore and saves it as `android.jks` (Similar to the name in `buildozer.spec`) file on the runner's filesystem.
+GitHub Secrets allow us to store sensitive data securely. The keystore file is stored as a Base64-encoded string in GitHub Secrets. This step decodes the keystore and saves it as `android.jks` file on the runner's filesystem.
 
 **Step 2: Build Release APK using Buildozer** 
 
